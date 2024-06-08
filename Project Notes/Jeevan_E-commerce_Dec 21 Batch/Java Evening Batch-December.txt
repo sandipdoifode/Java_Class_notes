@@ -1,0 +1,325 @@
+E-commerce domain-
+ points need to be covered
+ Angular Package structure and services*
+ How to consume Restful API in angular*
+ Hibernate Mapping with live example*
+
+----------------------------------------------------------
+JIRA-
+
+Design the API to get the list of all the products.
+
+weightage or story point- 3 days, 4 days, 2day-
+
+Login- 5-6 days-
+
+firstname,lastname,city----> mobile number- 3 days-
+ 1 day
+2,3,5,8,13,21-
+
+2 weeks
+
+how to assign the user story or how to assign the work in your company?
+JIRA
+
+sprint backlog- no of requirement or user story which is present in sprint-
+
+sprint- no of user story or issue or requirments how much- 4,5,6,7,8,9,10,11,12
+
+sprint duration 2 weeks that is 4th-15th april.
+
+status-  open(at a time of assign), in progress(actual start working, 
+         done (closed)-
+
+priority- high, medium, low.
+
+Requirement from client----> BA(Business Analyst) --- TL/Manager-developer
+
+who will post the requirement/user story on JIRA(Scrum Master/BA)-
+
+JIRA is project management tool-
+
+every user story has multiple acceptance criteria 01,02,03,04
+
+unit testing- on JIRA-
+
+create word document in which contain request and response-
+
+how to create the sub task in jira-
+
+daily stand up meeting- update
+jira update- 
+
+1st 15%
+
+2nd 40%
+
+3rd- 75%
+
+4th day-100% that is done
+
+comment
+
+@Pravin - question how to add the field on page.
+
+@Ajay- answer.
+
+@Pravin
+
+
+@Ajay- answer.
+or
+microsoft team- ping / send the message-
+
+
+
+sprint 1-
+start date 4th
+
+
+sprint-1
+end date- 15th
+
+sprint-2
+------------
+
+user->Rest API layer--->Service layer------------>DAO layer------->Database
+
+no of modules which is available in your project
+
+n number of module-
+
+as per business requirement, I have worked on multiple module.
+
+on which module are you currently working
+
+controller- means API layer
+service and serviceImpl- service layer- interface and its implementation
+repository means DAO layer
+database layer- means mysql-
+
+------------------------------------
+how you design the POJO in your project-
+
+serviceimpl class-
+   //injecting the repository object
+
+Restcontroller class-
+  //injecting the service object
+
+//core java
+
+int demo(int a){
+
+
+}
+
+int demo(@PathVariable("id") Integer id){
+
+
+}
+
+---------------------------------
+restcontroller--------service- serviceimpl-----dao layer(repository)---database
+
+-----------------------------------------
+@GetMapping- get method select postman
+@PostMapping-post method
+@DeleteMapping- delete method
+--------
+how to starts writting for rest api-
+Design the POJO class-
+Design the interface and its implementation
+design dao or repository 
+design rest controller
+
+before hitting the request through postman-
+
+Run spring boot project-
+
+steps to debug the code or API- (F6- line by line checking, f5-inside the method,
+f8- jump to next debug point)
+
+open the api in which you want to apply the debug point
+
+sidebar double click on it
+
+debug as spring boot app
+
+open the postman and hit the url by clicking on send button-
+
+then control will go to restcontroller class-- serviceimpl-repository(id incrment by 1)-
+
+then data will save into db-
+---------------------------------------
+factory design pattern-- 
+
+notes - git- each and every point go through
+
+local machine(own laptop)
+
+-------------------------------------------
+how to push the changes
+
+git status and press enter------list of files displayed where you have made the 
+changes-
+
+git add register.java and press enter button
+
+git commit -m "login functionality added or register details added or 
+                product details added, "added new field email for user"
+
+and press enter and changes will be reflect to local repository
+
+git push-----press enter button- 
+
+changes will be reflect to central or master or remote repository
+
+how to pull the changes-
+
+go to git bash- git pull
+
+changes will be reflected at local repository.
+
+--------------------------------------------------
+different server in company- 4
+
+local machine- tested the API -tested by developer
+Dev -- tested by developer
+step-1- TL get the updated code from git and deploy on dev server(build)  
+step-2- sent mail- deployment link will be provided
+        http://192.165.52.65 or application name
+step-3- click on that given link enter the username and password-->click on submit
+        button
+step-4-  Home Page->Add Product information, edit, delete 
+
+Test-  
+step-1- TL get the updated code from git and deploy on dev server(build)  
+step-2- sent mail- deployment link will be provided
+        http://192.165.52.65 or application name
+step-3- click on that given link enter the username and password-->click on submit
+        button.
+step-4- functionality is tested by Tester(QA- Quality Analyst)
+
+UAT-
+step-1- TL get the updated code from git and deploy on dev server(build)  
+step-2- sent mail- deployment link will be provided
+        http://192.165.52.65 or application name
+step-3- click on that given link enter the username and password-->click on submit
+        button.
+step-4- functionality is tested by Tester(QA- Quality Analyst)
+
+Green signal-- all ok
+Production server-   Live Server -- end user- client ,me 
+--------------------------------------------------------------------
+how to handle transection management in your project-
+hibernate 
+
+in spring boot application, main method- 
+@EnableTransactionManagement-  to active the transection-
+
+at service implementation layer we use @Transectional--
+
+user and product, we have to add those at same time.
+
+user- save into db
+product- does not save into db-----------------due to exception-
+---------------------------------------------------------------------
+how to use logger in the project-- 
+
+Logger or Log4J or SLF4J --
+
+to keep the track of information about application/ project
+
+------------------------------------------------------------
+How to write the Custom Query in live project
+
+----------------------------------------------------------
+E Store Release Notes-
+
+2 3 4 month,
+
+3 month- Jan-March April-June
+
+---------------------------------------------------------
+TL - deployment
+
+-----------------------------------------------------
+restful web service or dev guide- yes-
+-------------------------------------------------
+
+1. update - daily stand up meeting
+
+2. mail
+
+-----------------------------------------------
+To - ramesh@wipro.com
+
+cc- optional ajay@wipro.com
+
+bcc- ram@wipro.com
+
+subject- daily status-
+
+Message-
+Hi Amit,
+   Please find the attached daily status-
+
+-Design REST API for get the user with multiple product.
+-Added the one field in database for product as quantity.
+-Added one field as mail id for user form.
+-design the custom exception.
+
+Thanks & Regards,
+Ram Patil
++91 858585 9520
+
+3. JIRA- 15% , 40 % 100%-
+
+yes
+
+one to one mapping - one object is assoicated  with another object.
+
+table strcuture
+
+customer
+id(pk)
+name
+city
+trasectionid(fk)
+
+
+
+transection
+id(pk)
+total
+date
+--------------------------------
+where you have used one to one mapping in your project- pojo class
+
+many to many mapping-
+
+
+how to connect angular with spring boot-
+in angular, we have called the API in service
+
+------end to end flow of your any module---------------------
+login.component.html----login.file ------->service---
+---rest.api.ts file- control will jump to java backend(Rest controller)--
+
+Service----serviceimpl-----dao(repository)-----database
+
+
+service- we are called api url
+
+
+
+
+
+
+
+
+
+
+
+
